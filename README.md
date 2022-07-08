@@ -5,7 +5,7 @@ Além disso, fiz o desenvolvimento de uma lista de tarefas, que além de permiti
 
 Explorei bastante recurso do CSS para tornar o projeto mais bonito e interessantes para os usuários. 
 
-Segue o link para acesso: https://brianmduarte.github.io/project-to-do-list/
+Segue o link para acesso: <a href="https://brianmduarte.github.io/project-to-do-list/" title="projeto" target=”_blank”> To-do-List </a> 
 
 <hr>
 
@@ -15,6 +15,6 @@ In addition, I developed a list of tasks, which in addition to allowing you to i
 
 I explored a lot of CSS features to make the project more beautiful and interesting for users.
 
-Here is the link for access: https://brianmduarte.github.io/project-to-do-list/
+Here is the link for access: <a href="https://brianmduarte.github.io/project-to-do-list/" title="projeto" target=”_blank”> To-do-List </a> 
 
 
