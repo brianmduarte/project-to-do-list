@@ -1,4 +1,4 @@
-alert('Sejá bem vindo ao meu projeto!')
+alert('Seja bem vindo ao meu projeto!')
 
 window.addEventListener('load', () => {
     const form = document.querySelector("#new-task-form");
