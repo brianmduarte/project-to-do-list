@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+body {
+    background-color: rgb(42,51,53);
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 3rem;
+    display: flex;
+    justify-content: left;
+}
+
+header {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#new-task-form {
+    display: flex;
+}
+
+input , button {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#new-task-input {
+    flex: 1 1 0%;
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: #000000;
+    font-size: 1.25rem;
+}
+
+#new-task-input::placeholder {
+    color: grey;
+}
+
+#new-task-submit {
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 1rem;
+    background-color: rgb(50,223,50);
+    width: 40px;
+    height: 40px;
+    margin-top: 9px;
+}
+
+#new-task-submit:hover {
+    opacity: 0.8;
+}
+
+#new-task-submit:active {
+    opacity: 0.6;
+} 
+
+main {
+    flex: 1 1 0%;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;   
+}
+
+.task-list {
+    padding: 1rem;
+}
+
+.task-list h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: rgb(255,255,255);
+    margin-bottom: 1rem;
+}
+
+#tasks .task {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+#tasks .task .content {
+    flex: 1 1 0%;
+}
+
+#tasks .task .content .text {
+    color: #FFFFFF;
+    font-size: 1.125rem;
+    width: 100%;
+    display: block;
+    transition: 0.4s;
+}
+
+#tasks .task .content .text:not(:read-only) {
+    color: #71cdda;
+}
+
+#tasks .task .actions {
+    display: flex;
+    margin: 0 -0.5rem;
+}
+
+.task .actions button {
+    cursor: pointer;
+    margin: 0 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.4s;
+    
+}
+
+.task .actions button:hover {
+    opacity: 0.8;
+}
+
+
+.task .actions button:active {
+    opacity: 0.6;
+}
+
+.task .actions .editar {
+    background-image: linear-gradient(to right,  #EF35F2, #EF35F2, #EF35F2, #EF35F2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.task .actions .excluir {
+    color: crimson;
+}
